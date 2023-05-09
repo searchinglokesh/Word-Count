@@ -4,7 +4,7 @@ This is a Python script that takes an audio file as input and converts it into a
 
 ## Before you start
 
-This is automation for the project we were given which deals with manually creating labels for audio files for the Speech dataset in audacity for feature extraction. So remember that this is just a automation for the process so we are not creating a software for commercially using this, also yes we are currently using assr of iit madras and
+This is automation for the project we were given which deals with manually creating labels for audio files for the Speech dataset in audacity for feature extraction. So remember that this is just a automation for the process so we are not creating a software for commercially using this, also yes we are currently using asr of iit madras and doing this and 
 
 ## Prerequisites
 
@@ -24,6 +24,17 @@ Before using this script, you will need the following:
 2. Install the required packages in the Collab Environment
 
 ## Usage
+
+Collab Version:
+Open [IIT MADRAS ASR](https://asr.iitm.ac.in/asr/v2/)
+![image](https://user-images.githubusercontent.com/76202394/237011659-7129282a-1469-4c55-84ae-2869b8b66181.png)
+Upload the audio file here and select English for the detection of english words from the audio.
+![image](https://user-images.githubusercontent.com/76202394/237016190-d499e142-6317-4302-9b0a-8afdb869438f.png)
+Then save the transcription in the inputtxt in collab.
+Do the same for the hindi
+Then select Hindi for detction of the entire words in the audio since the hindi asr detects the english sentences as audio.
+Then insert it into the Hinditxt part.
+Then run the cell voila you have your labels data now save this into a txt fil now you can directly import it into audacity for labels and further use it gfor feature extraction for feature extraction.
 
 Will work upon this in later versions
 <!-- 
